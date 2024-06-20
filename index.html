@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Abstract Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="select-container">
+            <fieldset>
+                <label for="intensity">Intensity:</label>
+                <select id="intensity">
+                    <option value="low" selected>Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="mood">Mood:</label>
+                <select id="mood">
+                    <option value="random">Random</option>
+                    <option value="love">Love</option>
+                    <option value="cool">Cool</option>
+                    <option value="grayscale">Grayscale</option>
+                </select>
+            </fieldset>
+        </div>
+        <button id="generate">Generate Art</button>
+        <div id="art-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
