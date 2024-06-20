@@ -1,1 +1,1 @@
-[Shitty art app](abstract-art.jeetadhikari.com)
+[Shitty art app](https://abstract-art.jeetadhikari.com/)
